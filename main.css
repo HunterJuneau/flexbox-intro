@@ -44,3 +44,14 @@ ul a {
 ul a:hover {
   background: indigo;
 }
+
+.dogs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.dogs img {
+  width: 300px;
+  margin: 20px;
+}
