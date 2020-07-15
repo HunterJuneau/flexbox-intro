@@ -55,3 +55,17 @@ ul a:hover {
   width: 300px;
   margin: 20px;
 }
+
+.cats,
+.catsone,
+.catstwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cats img {
+  width: 300px;
+  margin: 10px;
+}
