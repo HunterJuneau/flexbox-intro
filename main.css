@@ -8,10 +8,10 @@ body {
 }
 
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: hotpink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hotpink;
 }
 
 .logo {
@@ -20,7 +20,7 @@ body {
 }
 
 .logo a {
-  color: indianred;
+  color: black;
 }
 
 ul {
@@ -32,7 +32,7 @@ ul {
 .logo a,
 ul a {
   text-decoration: none;
-  letter-spacing: .45em;
+  letter-spacing: 0.45em;
 }
 
 ul a {
@@ -68,4 +68,8 @@ ul a:hover {
 .cats img {
   width: 300px;
   margin: 10px;
+}
+
+main h1 {
+  text-align: center;
 }
